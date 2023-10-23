@@ -59,11 +59,11 @@
                             BorderColor="#2271B3"                            
                             />
                 
-                <Button x:Name="btnMirarMapa"
+                <Button x:Name="btnVerMapa"
                         Text="Ver Mapa"
                         HorizontalOptions="FillAndExpand"
                         Grid.Column="1"
-                        Clicked="btnMirarMapa_Clicked"
+                        Clicked="btnVerMapa_Clicked"
                         Background="white"
                         BorderWidth="2"
                         BorderColor="#2271B3
