@@ -56,11 +56,11 @@ namespace PM2E147.Views
 
                 if (Sites == null)
                 {
-                    Mensage("Aviso", "Debe seleccionar un sitio por favor");
+                    Mensage("Aviso", "Debe seleccionar un sitio");
                     return;
                 }
 
-                var status = await DisplayAlert("Aviso", $"¿Desea eliminar el sitio con descripcion: {Sites.descripcion}?", "SI", "NO");
+                var status = await DisplayAlert("Aviso", $"¿Desea eliminar el sitio: {Sites.descripcion}?", "SI", "NO");
 
                 if (status)
                 {
@@ -76,7 +76,7 @@ namespace PM2E147.Views
                     else
                     {
 
-                        Mensage("Aviso", "Lo sentimos, No se logro eliminar el sitio deseado");
+                        Mensage("Aviso", " No se logro eliminar el sitio deseado");
                     }
                 }
                 else
@@ -92,7 +92,7 @@ namespace PM2E147.Views
 
         }
 
-        private async void btnMirarMapa_Clicked(object sender, EventArgs e)
+        private async void btnVerMapa_Clicked(object sender, EventArgs e)
         {
 
             try

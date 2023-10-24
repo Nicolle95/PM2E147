@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PM2E147.MainPage"
              NavigationPage.HasNavigationBar="False"
-             BackgroundColor="#F1F4F5">
+             BackgroundColor="LightGoldenrodYellow">
 
     <ScrollView>
         <StackLayout>
@@ -24,8 +24,8 @@
 
             <StackLayout>
 
-                <Frame Background="#2271B3">
-                    <Label Text="IMAGEN DEL SITIO VISITADO"
+                <Frame Background="blue">
+                    <Label Text="SITIO VISITADO"
                            HorizontalOptions="Center"
                            TextColor="LightGoldenrodYellow"
                    />
@@ -93,7 +93,7 @@
                     MaxLength="50"
                     HorizontalOptions="FillAndExpand"
                     Margin="30,0,30,0"
-                    Placeholder="Paris,Francia"
+                    Placeholder="+sitio"
                     TextColor="Gray"
                     />
 
@@ -106,7 +106,7 @@
                         Clicked="btnAdd_Clicked"
                         Background="white"
                         BorderWidth="2"
-                        BorderColor="#2271B3"
+                        BorderColor="DarkCyan"
                         />
 
                 <Button x:Name="btnList"
@@ -116,7 +116,7 @@
                         Clicked="btnList_Clicked"
                         Background="white"
                         BorderWidth="2"
-                        BorderColor="#2271B3"
+                        BorderColor="DarkCyan"
                             />
             </Grid>
 
@@ -126,4 +126,5 @@
     </ScrollView>
 
 </ContentPage>
+
 

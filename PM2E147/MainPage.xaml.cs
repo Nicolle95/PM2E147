@@ -2,8 +2,7 @@
 using Plugin.Media.Abstractions;
 using PM2E147.Models;
 using PM2E147.Views;
-using PM2E147.Models;
-using PM2E147.Views;
+
 using PM2E147;
 using System;
 using System.Collections.Generic;

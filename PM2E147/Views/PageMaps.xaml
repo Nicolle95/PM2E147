@@ -4,7 +4,7 @@
              xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
              x:Class="PM2E147.Views.PageMaps">
 
-    <Grid BackgroundColor="Azure">
+    <Grid BackgroundColor="white">
 
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
